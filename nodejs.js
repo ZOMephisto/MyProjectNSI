@@ -12,10 +12,10 @@ window.onscroll = function () {
 
     }
     else {
-        document.getElementById("navbar").style.background = "black";
+        document.getElementById("navbar").style.background = "white";
         document.getElementById("navbar").style.padding = "90px 10px";
-        document.getElementById("logo").style.color = "white";
-        document.getElementById("navbar-right").style.color = "white";
+        document.getElementById("logo").style.color = "black";
+        document.getElementById("navbar-right").style.color = "black";
     }
 
 
