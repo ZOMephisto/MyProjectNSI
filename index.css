@@ -5,6 +5,8 @@
 body {
     margin: 0;
     font-family: lato;
+    background:url(blackpit.webp) no-repeat center fixed;
+    -webkit-background-size:cover;
 }
 
 #navbar {
@@ -35,7 +37,7 @@ body {
 }
 
 p {
-    color: black;
+    color: white;
     margin: 16px;
 }
 
