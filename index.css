@@ -5,8 +5,6 @@
 body {
     margin: 0;
     font-family: lato;
-    background:url(blackpit.webp) no-repeat center fixed;
-    -webkit-background-size:cover;
 }
 
 #navbar {
@@ -37,7 +35,7 @@ body {
 }
 
 p {
-    color: white;
+    color: black;
     margin: 16px;
 }
 
@@ -49,10 +47,58 @@ a.hypertext:visited {
     color: gray;
 }
 
+
 .aboutte {
     font-weight: bold;
 } 
 
-    
+#contact {
+    font-size: 50px;
+}
 
+.wrapper {
+    text-align: center;
+    margin-top: 200px;
+}
+   
+.wrapper ul {
+display: inline-flex;
+margin: 0;
+padding: 0;
+list-style: none;
+}
 
+.wrapper li {
+   margin: 10px;
+   list-style: none;
+   font-size: 24px;
+   transition: 0.5s;
+}
+
+.wrapper ul li a {
+     width: 60px;
+   padding: 16px 0;
+   display: block;
+   color: #fff;
+}
+
+ul li:nth-child(1){
+    background: #3b5999;
+ }
+ ul li:nth-child(2){
+    background: #55acee;
+ }
+ ul li:nth-child(3){
+    background: #e4405f;
+ }
+ ul li:nth-child(4){
+    background: #0077B5;
+ }
+ ul li:nth-child(5){
+    background: #6441A4;
+ }
+
+ul li:hover {
+   transform: translateY(-8px);
+   box-shadow: 0 10px 10px rgba(255,255,255,.2);
+}
