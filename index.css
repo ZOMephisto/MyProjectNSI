@@ -39,12 +39,8 @@ p {
     margin: 16px;
 }
 
-a.hypertext:link {
-    text-decoration: none;   
-}
-
-a.hypertext:visited {
-    color: gray;
+a {
+    text-decoration: none;
 }
 
 
