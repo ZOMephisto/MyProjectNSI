@@ -9,13 +9,21 @@ window.onscroll = function () {
         document.getElementById("navbar").style.padding = "30px 10px";
         document.getElementById("logo").style.color = "white";
         document.getElementById("navbar-right").style.color = "white";
-
+        document.getElementById("hypertext1").style.color = "white";
+        document.getElementById("hypertext2").style.color = "white";
+        document.getElementById("hypertext3").style.color = "white";
     }
+        
+
+    
     else {
         document.getElementById("navbar").style.background = "white";
         document.getElementById("navbar").style.padding = "90px 10px";
         document.getElementById("logo").style.color = "black";
         document.getElementById("navbar-right").style.color = "black";
+        document.getElementById("hypertext1").style.color = "black";
+        document.getElementById("hypertext2").style.color = "black";
+        document.getElementById("hypertext3").style.color = "black";
     }
 
 
